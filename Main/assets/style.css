@@ -1,64 +1,113 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
-.container{
+
+.container {
     display: flex;
 }
+
 .left img {
-  width: 100%;
-  height: 100vh;
-  object-fit: cover;
+    width: 790px;
+    height: 1106px;
+    object-fit: cover;
 }
-.left{
+
+.left {
     flex: 1;
 }
-.right{
+
+.right {
     flex: 1;
     background-color: #ffffff;
     padding: 60px;
 }
-.right h1{
-    font-size: 28px;
-    font-weight: 700;
-    color: #333;
+
+.right h1 {
+    font-size: 48px;
+    font-weight: 600;
+    color: 900;
     margin-bottom: 10px;
+    font-size: inter;
+    line-height: -2%;
+
 }
-.right p{
+
+.right p {
     margin-bottom: 20px;
     color: #666;
 }
-.right a{
+
+.right a {
     text-decoration: none;
 }
-form{
+
+form {
     display: flex;
     flex-direction: column;
 }
-form label{
+
+form label {
     margin-top: 15px;
     font-size: 14px;
     font-weight: 500;
 }
+
 form input[type="text"],
 form input[type="email"],
 form input[type="tel"],
 form textarea,
-form select{
+form select {
 
     padding: 12px;
     margin-top: 5px;
+    margin-right: 16px;
+    margin-bottom: 12px;
+    margin-left: 16px;
     border: 1px solid #ccc;
     border-radius: 8px;
     font-size: 14PX;
+    width: 512px;
+    height: 48px;
+
 }
-button{
+.phone{
+    height: 12px;
+}
+
+button {
     margin-top: 20px;
-    padding: 14px;
+    padding-top: 12px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 12px;
     background-color: #7F56D9;
     border-radius: 8px;
     color: white;
-    
+    width: 512px;
+    border: 1px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.services {
+    display: flex;
+    font-size: 14px;
+    color: #333;
+    margin: 20px;
+    padding-right: 20px;
+}
+.sev{
+    margin-bottom: 30px;
+    margin-left: 12px;
+}
+.checkbox{
+    border: 12px;
 }
