@@ -1,0 +1,122 @@
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    body {
+      background-color: #f5f5f5;
+    }
+
+    .header {
+      background: linear-gradient(to right, #d0011b, #f60);
+      color: white;
+      padding: 8px 16px;
+      display: flex;
+      flex-direction: column;
+      height: 120px;
+      nav-right: 34px;
+      margin: 0 auto;
+    }
+
+    .top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 13px;
+    }
+
+    .top-left a,
+    .top-right a {
+      color: white;
+      margin: 0 6px;
+      text-decoration: none;
+      position: relative;
+    }
+
+    .top-left a:hover,
+    .top-right a:hover {
+      text-decoration: underline;
+    }
+
+    .main-bar {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      height: 30px;
+      margin-right: 6px;
+    }
+
+    .search-box {
+      flex: 1;
+      display: flex;
+      margin: 0 16px;
+    }
+
+    .search-box input {
+      flex: 1;
+      padding: 8px;
+      border: none;
+      border-radius: 2px 0 0 2px;
+      outline: none;
+    }
+
+    .search-select {
+      background: white;
+      color: #333;
+      padding: 0 8px;
+      display: flex;
+      align-items: center;
+      border-left: 1px solid #ccc;
+
+    }
+
+    .search-button {
+      background: #ff5722;
+      color: white;
+      border: none;
+      padding: 0 12px;
+      cursor: pointer;
+      border-radius: 0 2px 2px 0;
+    }
+
+    .icon {
+      margin-left: 10px;
+      cursor: pointer;
+      position: relative;
+    }
+
+    .icon:hover::after {
+      content: attr(data-tooltip);
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background: #333;
+      color: white;
+      padding: 4px 8px;
+      border-radius: 4px;
+      white-space: nowrap;
+      font-size: 12px;
+      margin-top: 5px;
+    }
+    .search-box{
+      display: flex
+;
+    flex: 1;
+    height: 40px;
+    background-color: white;
+    border-radius: 2px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
